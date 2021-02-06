@@ -10,8 +10,7 @@ public static string[] split(string str, char separator, char marker)
 - ```separator``` - разделитель
 - ```marker``` - маркер
 
-**Пример**
-
+## Пример
 Разделение строки "C:\Program Files MyDirectory" по символу пробел.
 ```c#
 string[] str = SplitIgnore.split(@"'C:\Program Files' MyDirectory MyFile", ' ', '\'');
