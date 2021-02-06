@@ -11,7 +11,8 @@ public static string[] split(string str, char separator, char marker)
 - ```marker``` - маркер
 
 **Пример**
-\nРазделение строки "C:\Program Files MyDirectory" по символу пробел.
+
+Разделение строки "C:\Program Files MyDirectory" по символу пробел.
 ```c#
 string[] str = SplitIgnore.split(@"'C:\Program Files' MyDirectory MyFile", ' ', '\'');
 foreach (string s in str)
