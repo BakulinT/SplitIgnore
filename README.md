@@ -21,6 +21,7 @@ foreach (string s in str)
 ```
 Результат:
 ```
-	C:\Program Files
-	MyDirectory
-	MyFile
+C:\Program Files
+MyDirectory
+MyFile
+```
