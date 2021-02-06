@@ -9,7 +9,7 @@ namespace SplitIgnore
     {
         static void Main(string[] args)
         {
-            string[] str = SplitIgnore.split(@"*'** 8*** ' *", ' ', '\'');
+            string[] str = SplitIgnore.split(@"'C:\Program Files' MyDirectory MyFile", ' ', '\'');
             foreach (string s in str)
             {
                 Console.WriteLine(s);
